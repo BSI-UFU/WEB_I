@@ -1,0 +1,25 @@
+.esquerda {
+    text-align: left;
+    color: darkblue;
+    font-size: 18px;
+}
+
+.centro {
+    text-align: center;
+    color: darkgreen;
+    font-size: 18px;
+}
+
+.direita {
+    text-align: right;
+    color: maroon;
+    font-size: 18px;
+}
+h1 {
+    font-family:'Helvetica';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.sublinhado {
+    text-decoration: underline;
+    font-size: 18px;
+    color: #333;
+}
+
+.linha-acima {
+    text-decoration: overline;
+    text-indent: 50px;
+    font-size: 18px;
+    color: #555;
+}
+
+.linha-meio {
+    text-decoration: line-through;
+    font-size: 18px;
+    color: #777;
+}
+h1 {
+    font-family:'Helvetica';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}

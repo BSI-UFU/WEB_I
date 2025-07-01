@@ -1,0 +1,19 @@
+body {
+    background-image: url('Imagem/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg'); /* Substitua por seu arquivo de imagem */
+    background-size:cover;             /* Preenche toda a tela */
+    background-position: center;      /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para facilitar a leitura */
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 10px;
+}

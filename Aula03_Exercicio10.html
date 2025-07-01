@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 03 - Exercício 09</title>
+        <style>
+            h1{
+                font-size: 16px;
+                font-weight: bold;
+                font-family: 'Helvetica';
+                text-align: center;
+                color:blue;
+            }
+            table {
+                border-collapse: collapse;
+                border: 2px solid black;
+                margin-left: 620px;
+                width: 700px;
+               
+            }
+            th, td {
+                border: 1px black;
+                border-style: solid;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            th {
+                background-color: #005bc8;
+                color: white;
+                font-size: 12px;
+                font-family: 'Arial';
+            }
+            td {
+                font-size: 12px;
+                font-family: 'Arial';
+            }
+            tr:nth-child(even){
+                background-color: #aad4ff;
+            }
+            tr:hover {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Alíquota do Imposto de Renda</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Base de cálculo mensal em R$</th>
+                    <th>Alíquota %</th>
+                    <th>Parcela a deduzir do imposto em R$</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Até 1.903,98</td>
+                    <td align="center">-</td>
+                    <td align="center">-</td>
+                </tr>
+                <tr>
+                    <td>De 1.903,99 a 2.826,65</td>
+                    <td align="center">7,5</td>
+                    <td align="center">142,80</td>
+                </tr>
+                <tr>
+                    <td>De 2.826,66 a 3.751,05</td>
+                    <td align="center">15</td>
+                    <td align="center">354,80</td>
+                </tr>
+                <tr>
+                    <td>De 3.751,06 a 4.664,68</td>
+                    <td align="center">22,5</td>
+                    <td align="center">636,13</td>
+                </tr>
+                <tr>
+                    <td>Acima de 4.664,69</td>
+                    <td align="center">27,5</td>
+                    <td align="center">869,36</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
