@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mostrar/Ocultar Parágrafos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <p id="p1">Este é o primeiro parágrafo. Ele contém informações iniciais.</p>
+  <p id="p2">Este é o segundo parágrafo. Aqui há conteúdo adicional.</p>
+  <p id="p3">Este é o terceiro parágrafo. Ele finaliza a seção de texto.</p>
+
+  <button onclick="ocultarParagrafos()">Ocultar Parágrafos</button>
+  <button onclick="mostrarParagrafos()">Exibir Parágrafos</button>
+
+  <script>
+    function ocultarParagrafos() {
+      document.getElementById("p1").style.display = "none";
+      document.getElementById("p2").style.display = "none";
+      document.getElementById("p3").style.display = "none";
+    }
+
+    function mostrarParagrafos() {
+      document.getElementById("p1").style.display = "block";
+      document.getElementById("p2").style.display = "block";
+      document.getElementById("p3").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>

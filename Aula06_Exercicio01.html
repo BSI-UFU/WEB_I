@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Alterar Cor do Parágrafo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+
+    #meuParagrafo {
+      color: blue; /* Cor inicial azul */
+      font-size: 20px;
+    }
+
+    button {
+      margin: 10px 5px;
+      padding: 8px 16px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <p id="meuParagrafo">Este é um parágrafo com cor alterável.</p>
+
+  <button onclick="mudarParaVermelho()">Alterar para cor vermelha</button>
+  <button onclick="mudarParaAzul()">Alterar para cor azul</button>
+
+  <script>
+    function mudarParaVermelho() {
+      document.getElementById("meuParagrafo").style.color = "red";
+    }
+
+    function mudarParaAzul() {
+      document.getElementById("meuParagrafo").style.color = "blue";
+    }
+  </script>
+
+</body>
+</html>

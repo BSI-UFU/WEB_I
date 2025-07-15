@@ -1,0 +1,40 @@
+.div0 {
+    position: absolute;
+    width:500px;
+    height:500px;
+    background-color:yellow;
+    z-index:1;
+}
+
+.div1 {
+    position: absolute;
+    width:200px;
+    height:200px;
+    background-color: gray;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    z-index:2;
+}
+
+.div2 {
+    position: absolute;
+    top:200px;
+    width:200px;
+    height:200px;
+    background-color: green;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    z-index:3;
+}
+
+.div3 {
+    position: absolute;
+    top:30px;
+    left:30px;
+    width:200px;
+    height:200px;
+    background-color: red;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    z-index:4;
+}
