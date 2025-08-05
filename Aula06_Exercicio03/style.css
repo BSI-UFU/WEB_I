@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+#conteudo {
+  margin-bottom: 20px;
+}
+
+.paragrafo {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #eef;
+  border-left: 4px solid #66f;
+}
+
+.botoes button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #0055cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #003f99;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <title>Monte seu Sanduíche</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Monte seu Sanduíche</h2>
+        <form id="formSanduiche">
+            <label><input type="checkbox" value="0.30"> Alface (R$ 0,30)</label>
+            <label><input type="checkbox" value="0.70"> Presunto (R$ 0,70)</label>
+            <label><input type="checkbox" value="1.00"> Peito de peru (R$ 1,00)</label>
+            <label><input type="checkbox" value="0.50"> Azeitonas (R$ 0,50)</label>
+            <label><input type="checkbox" value="0.50"> Tomate (R$ 0,50)</label>
+            <label><input type="checkbox" value="1.00"> Queijo (R$ 1,00)</label>
+            <label><input type="checkbox" value="0.50"> Ovo (R$ 0,50)</label>
+            <label><input type="checkbox" value="0.30"> Milho (R$ 0,30)</label>
+            <label><input type="checkbox" value="2.00"> Peito de frango (R$ 2,00)</label>
+            <button type="button" onclick="calcularPreco()">Calcular Preço</button>
+        </form>
+        <p id="resultado"></p>
+        <script src="script.js"></script>
+    </body>
+</html>
