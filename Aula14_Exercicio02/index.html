@@ -1,0 +1,28 @@
+<!--2) Crie uma página com uma caixa de texto (div). Ao
+pressionar o botão do mouse sobre a caixa de texto,
+altere sua cor de fundo para azul.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Exercício 2</h1>
+    <h2>Pressione o botão do mouse sobre a caixa de texto</h2>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#caixa").css("background-color", "blue");
+                $("#caixa").css("color", "white");
+            });
+        });
+    </script>
+    <div id="caixa">Caixa de Texto
+        <button type="button" id="btn">Clique aqui</button>
+    </div>
+
+</body>
+</html>

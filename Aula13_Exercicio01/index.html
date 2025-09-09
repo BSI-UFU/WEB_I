@@ -1,0 +1,22 @@
+<!--1) Crie uma página HTML com um botão. Quando o botão
+for clicado, use jQuery para alterar o texto do botão para
+"Você clicou aqui!".-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#meuBotao").click(function(){
+                $(this).text("Você clicou aqui!");
+            });
+        });
+    </script>
+</head>
+<body>
+    <button type="button" id="meuBotao">Clique em mim!</button>
+</body>
+</html>

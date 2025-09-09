@@ -1,0 +1,25 @@
+<!--5) Crie uma página com um botão dentro de uma
+caixa. Quando o mouse sair da caixa, a cor de fundo
+da caixa deve mudar para vermelho.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 5</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="caixa">
+        <button type="button" class="button">Clique aqui</button>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $(".caixa").mouseleave(function(){
+                $(this).css("background-color", "red");
+            });
+        });
+    </script>
+</body>
+</html>

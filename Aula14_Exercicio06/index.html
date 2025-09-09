@@ -1,0 +1,34 @@
+<!--6) Crie uma página com uma imagem. Ao passar o
+mouse sobre a imagem, troque a borda para uma
+linha sólida preta; ao tirar o mouse, retorne à borda
+original.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 6</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Exercício 6</h1>
+    <h2>Passe o mouse sobre a imagem</h2>
+    <img id="imagem"
+       src="https://picsum.photos/600/400" 
+       alt="Exemplo"
+       style="border: 2px dashed blue; width: 300px; height: auto;">
+    <script>
+        $(document).ready(function(){
+            $("#imagem").hover(
+                function() {
+                    $(this).css("border", "2px solid black");
+                },
+                function() {
+                    $(this).css("border", "2px dashed blue");
+                }
+            );
+        });
+    </script>
+</body>
+</html>

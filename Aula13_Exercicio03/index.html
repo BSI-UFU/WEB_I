@@ -1,0 +1,42 @@
+<!--3) Crie uma página HTML com uma tabela. Use jQuery
+para mudar o fundo das colunas pares para verde e das
+colunas ímpares para amarelo.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("td:nth-child(even)").css("background-color", "green");
+            $("td:nth-child(odd)").css("background-color", "yellow");
+        });
+    </script>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+            <th>Coluna 3</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+</body>
+</html> 

@@ -1,0 +1,30 @@
+<!--4) Crie uma página HTML com quatro parágrafos e um
+botão. Utilize jQuery para alterar a cor do terceiro
+parágrafo para vermelho quando o botão for clicado.-->
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Exercício 4</h1>
+    <h2>Clique no botão para mudar a cor do terceiro parágrafo</h2>
+    <p>Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+    <p>Parágrafo 3</p>
+    <p>Parágrafo 4</p>
+    <button type="button" id="btn">ENTER</button>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("p").eq(2).css("color", "red");
+                $("p").eq(2).css("font-weight", "bold");
+            });
+        });
+    </script>
+</body>
+</html>
